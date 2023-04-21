@@ -1,0 +1,10 @@
+<map>
+  <boolean name="hide_app" value="false"/>
+  <string name="server_uri_A">https://promethean.glbth.com/glbth/v1/rest/</string>
+  <string name="server_uri_B">https://promethean.glbth.com/glbth/v1/rest/</string>
+  <string name="group">promethean_default</string>
+  <boolean name="block_developer_options" value="false"/>
+  <string name="oem_name">promethean</string>
+  <boolean name="show_landing_page" value="true"/>
+  <boolean name="do_oem_registration" value="true"/>
+</map>
