@@ -1,0 +1,14 @@
+# rtk_kylin32-user 6.0.1 MOB30J eng.root.20190513.160502 test-keys
+- manufacturer: realtek
+- platform: kylin
+- codename: kylin32
+- flavor: rtk_kylin32-user
+- release: 6.0.1
+- id: MOB30J
+- incremental: eng.root.20190513.160502
+- tags: test-keys
+- fingerprint: realtek/rtk_kylin32/kylin32:6.0.1/MOB30J/root05131607:user/test-keys
+- is_ab: false
+- brand: realtek
+- branch: rtk_kylin32-user-6.0.1-MOB30J-eng.root.20190513.160502-test-keys
+- repo: realtek_kylin32_dump
