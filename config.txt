@@ -1,0 +1,12 @@
+# Package Configuration
+secure_boot=0
+fw = rescueDT rescue.emmc.dtb 0x02140000
+fw = kernelDT android.emmc.dtb 0x02100000
+fw = rescueRootFS rescue.root.emmc.cpio.gz_pad.img 0x30000000
+fw = linuxKernel emmc.uImage 0x03000000
+fw = audioKernel bluecore.audio 0x01b00000
+fw = imageFile bootfile.image 0x1e800000  
+boot_av_num=1
+install_factory=1
+###	define install factory command :
+ifcmd0 = "cd ../../;cp -rf tmp/install_factory/* tmp/factory/;"
